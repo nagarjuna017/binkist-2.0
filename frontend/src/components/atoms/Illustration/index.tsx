@@ -13,7 +13,8 @@ export interface IllustrationProps {
     | "8"
     | "9"
     | "10"
-    | "11";
+    | "11"
+    | "banner";
 
   margin?: string;
 }

@@ -1,11 +1,16 @@
 import React from "react";
-import  Logo  from "./components/atoms/Logo/index";
+import { ThemeProvider } from "styled-components";
+import Banner from "./components/molecules/Banner";
+import theme from "./Theme/theme";
 
 export const App = () => {
   return (
-    <div className="App">
-      <Logo name= "blinkist"/>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+      <Banner/>
     </div>
+    </ThemeProvider>
+    
   );
 }
 

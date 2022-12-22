@@ -31,6 +31,7 @@ import Eighth from "../public/assets/images/8.svg"
 import Nine from "../public/assets/images/9.svg"
 import Ten from "../public/assets/images/10.svg"
 import Eleven from "../public/assets/images/11.svg"
+import Banner from "../public/assets/images/entrepreneurship.svg"
 
 import Blinkist from "../public/assets/logos/blinkist.svg"
 
@@ -46,6 +47,7 @@ export const Illustrations: { [key: string]: JSX.Element } = {
   9: <Nine />,
   10: <Ten />,
   11: <Eleven />,
+  banner: <Banner />,
 };
 
 export const Icons: { [key: string]: JSX.Element } = {

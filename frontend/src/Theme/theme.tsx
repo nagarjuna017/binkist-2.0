@@ -74,6 +74,7 @@ const theme = createTheme({
 
     blueColor: {
       "100": "#DFE8F6",
+      "300": "#69A6E3",
       "500": "#0365F2",
     },
 
