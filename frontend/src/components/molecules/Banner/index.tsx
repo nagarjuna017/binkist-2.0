@@ -26,13 +26,11 @@ const Banner = () => {
       <Grid item className="text1" xs={9} md={4}>
         <Typography variant="h5">Explore on Books</Typography>
         <Typography variant="h5" className="text2">entrepreneurship</Typography>
-        <Typography variant="subtitle2">Everything you need to know about thriving on a</Typography>
+        <Typography variant="subtitle2">Everything you need to know about thriving on a
+        </Typography>
         <Typography variant="subtitle2">shoestring budget, making your first million, and hiring </Typography>
         <Typography variant="subtitle2">right from the start.</Typography>
-      </Grid>
-      <Grid item className="text2">
-
-      </Grid>   
+      </Grid>  
       <Grid item>
         <Illustration name="banner" />
       </Grid>  

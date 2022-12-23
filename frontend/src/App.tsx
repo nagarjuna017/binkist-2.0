@@ -1,13 +1,13 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import Banner from "./components/molecules/Banner";
+import Footer from "./components/molecules/Footer";
 import theme from "./Theme/theme";
 
 export const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-      <Banner/>
+      <Footer/>
     </div>
     </ThemeProvider>
     
